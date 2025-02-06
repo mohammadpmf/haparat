@@ -1,0 +1,53 @@
+body{
+    background-color: skyblue;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+}
+
+h2{
+    text-align: initial;
+    font-size: 40px;
+}
+
+p{
+    /* font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: italic; */
+    font: italic small-caps bolder 28px calibri;
+    text-shadow: -1px -1px yellow;
+    box-shadow: -10px -10px yellow, 10px 10px blue;
+    opacity: 0.8;
+    text-align: justify;
+    margin: 1cm;
+    border: 4px double green;
+    border-width: 16px;
+    border-radius: 16px;
+    padding: 16px 20px;
+    width: 800px;
+    height: 250px;
+    overflow: auto;
+    background-color: red;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    font-size: 32px;
+    text-align: center;
+    background-color: red;
+    width: 250px;
+    margin: 16px;
+    height: 200px;
+    text-decoration: none;
+    color: black
+}
+h3{
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    background-color: red;
+    height: 200px;
+}
