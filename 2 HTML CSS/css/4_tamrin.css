@@ -1,0 +1,19 @@
+@keyframes rotate {
+    0%{
+        rotate: 0;
+    }
+    90%{
+        rotate: 360deg;
+    }
+    100%{
+        rotate: 0;
+    }
+}
+
+#aparat{
+    width: 200px;
+    height: 200px;
+}
+#aparat:hover{
+    animation: rotate 4s 1;
+}

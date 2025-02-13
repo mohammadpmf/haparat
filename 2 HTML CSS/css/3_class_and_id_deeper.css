@@ -1,0 +1,31 @@
+*{
+    font-size: 1.2em;
+}
+
+@keyframes shake {
+    0%{
+        font-size: 1em;
+        background-color: yellow;
+    }
+    50%{
+        font-size: 2em;
+        background-color: green;
+    }
+    100%{
+        font-size: 1em;
+        background-color: yellow;
+    }
+}
+
+div>a{
+    text-decoration: none;
+    background-color: yellow;
+    /* transition: 1s; */
+    animation: shake 2s 1;
+}
+
+div a:hover{
+    display: inline-block;
+    background-color: blue;
+    font-size: 100px;
+}

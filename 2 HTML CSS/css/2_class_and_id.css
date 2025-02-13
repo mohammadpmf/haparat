@@ -1,0 +1,26 @@
+p{
+    font-size: 24px;
+    background-color: aqua;
+    margin: 1cm;
+}
+
+.red_bg{
+    background-color: rgb(135, 14, 14);
+}
+
+p.red_bg{
+    background-color: red;
+}
+
+p.white_fg{
+    color: white;
+}
+
+p.margin2{
+    margin: 2cm;
+}
+
+#red_bg{
+    background-color: rgb(255, 182, 182);
+}
+
