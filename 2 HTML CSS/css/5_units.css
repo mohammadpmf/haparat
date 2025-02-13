@@ -1,0 +1,57 @@
+body{
+    font-size: 16px;
+}
+p{
+    border: 1px solid black;
+}
+.p1{
+    width: 500px;
+}
+.p2{
+    width: 5.209in;
+}
+.p3{
+    width: 13.23086cm;
+}
+.p4{
+    width: 132.3086mm;
+}
+.p5{
+    width: 31.26pc;
+}
+.p6{
+    width: 374.8pt;
+}
+
+.p7{
+    width: 31.2em;
+}
+.p8{
+    width: 31.2rem;
+}
+.p9{
+    width: 69.75ex;
+}
+.p10{
+    width: 62.5ch;
+}
+
+.p11{
+    width: 26.2%;
+}
+.p12{
+    width: 26vw;
+}
+.p13{
+    width: 52.4vh;
+}
+.p14{
+    width: 52.4vmin;
+}
+.p15{
+    width: 26vmax;
+}
+div{
+    width: 1000px;
+    font-size: 8px;
+}
