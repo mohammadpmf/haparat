@@ -1,0 +1,33 @@
+img{
+    width: 15vw;
+    height: 25vh;
+    animation: test 8s infinite;
+    position: fixed;
+}
+
+@keyframes test {
+    0%{
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+    25%{
+        left: 0;
+        top: 75vh;
+        background-color: blue;
+    }
+    50%{
+        left: 85vw;
+        top: 75vh;
+        background-color: green;
+    }
+    75%{
+        left: 85vw;
+        top: 0;
+        background-color: yellow;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
