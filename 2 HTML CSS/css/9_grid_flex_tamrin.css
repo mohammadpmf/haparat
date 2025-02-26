@@ -1,0 +1,27 @@
+/* div.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 3vh;
+    column-gap: 4.8vw;
+    margin-left: 1.8vw;
+}
+*/
+
+div.grid{
+    display: grid;
+    grid-template-rows: repeat(4, 30vh);
+    grid-template-columns: repeat(4, 20vw);
+    row-gap: 3vh;
+    column-gap: 4.8vw;
+    margin-left: 1.8vw;
+}
+
+img{
+    width: 20vw;
+    height: 30vh;
+}
+
+.test{
+    grid-column: 3;
+}
