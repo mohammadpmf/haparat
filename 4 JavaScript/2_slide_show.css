@@ -1,0 +1,41 @@
+div.pic{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 98vh;
+    margin: auto;
+}
+
+div.pic img{
+    position: absolute;
+    width: 50vw;
+    height: 75vh;
+    border-radius: 32px;
+}
+
+div.pic button{
+    position: absolute;
+    font-size: 2.5em;
+    width: 3.5vw;
+    height: 3.5vw;
+    opacity: 0.35;
+    border-radius: 50%;
+    border: none;
+    color: green;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+div.pic button:hover{
+    opacity: 0.7;
+}
+
+div.pic button.left{
+    left: 1vw;
+}
+
+div.pic button.right{
+    right: 1vw;
+}
