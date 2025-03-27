@@ -1,0 +1,84 @@
+.bg_yellow{
+    background-color: yellow;
+}
+.bg_green{
+    background-color: green;
+}
+.bg_black{
+    background-color: black;
+}
+.bg_white{
+    background-color: white;
+}
+.bg_red{
+    background-color: red;
+}
+.bg_blue{
+    background-color: blue;
+}
+.bg_orange{
+    background-color: orange;
+}
+.bg_brown{
+    background-color: brown;
+}
+.bg_violet{
+    background-color: violet;
+}
+
+.fg_yellow{
+    color: yellow;
+}
+.fg_green{
+    color: green;
+}
+.fg_black{
+    color: black;
+}
+.fg_white{
+    color: white;
+}
+.fg_red{
+    color: red;
+}
+.fg_blue{
+    color: blue;
+}
+.fg_orange{
+    color: orange;
+}
+.fg_brown{
+    color: brown;
+}
+.fg_violet{
+    color: violet;
+}
+
+.very_small{
+    font-size: 0.5rem;
+}
+.small{
+    font-size: 0.8rem
+}
+.normal{
+    font-size: 1rem
+}
+.big{
+    font-size: 2rem;
+}
+.very_big{
+    font-size: 4rem;
+}
+
+.my0{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.my10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
