@@ -14,7 +14,7 @@ async function next(n){
         file_number++;
     else
         file_number--;
-    file_number = file_number%SIZE
+    file_number = file_number%(SIZE+1)
     if (file_number==0 && n==1)
         file_number=1;
     else if(file_number==0)
